@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:700');
+@import './_custom';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/animate.css/animate';
+@import '../prism/prism-xonokai';
+
+//@import "../../node_modules/bootstrap/scss/functions";
+//@import "../../node_modules/bootstrap/scss/variables";
+//@import "../../node_modules/bootstrap/scss/mixins";
+
+//@import "../../node_modules/bootstrap/scss/reboot";
+//@import "../../node_modules/bootstrap/scss/type";
+//@import "../../node_modules/bootstrap/scss/images";
+//@import "../../node_modules/bootstrap/scss/grid";
+
+.h2,
+.h4 {
+  font-family: Asap;
+}
+
+.site-header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-nav.inbody {
+  background: $primary;
+}
+
+.layout-social {
+  font-size: 1.4em;
+}
+
+.page-section-title{
+  @include font-size(5rem);
+}
+
+.page-section-text{
+  text-shadow: 1px 1px 10px #000; 
+  @include font-size(1.7rem);
+}
+
+a.text-primary:hover{
+  color: lighten($primary, 20%);
+}
+
+.list-group-item:hover{
+  background: $gray-700;
+}
+
+.list-group-item a {
+  text-decoration: none;
+}
+
+// a.text-secondary:hover{
+//   color: $secondary
+// }

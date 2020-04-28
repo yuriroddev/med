@@ -1,0 +1,38 @@
+$primary:       #00adb5;
+$headings-font-family:        Asap;
+$secondary:     #f8b500;
+$body-bg:       #393e46;
+$text-muted:    white;//#6c757d;
+$body-color:     $text-muted;
+$border-radius:  0px;
+
+$enable-responsive-font-sizes:true;
+
+$theme-colors: (
+    "special":    #e01c55,
+);
+
+$enable-rounded: false;
+$enable-shadows: true;
+$btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 5px 10px rgba(0, 0, 0, 0.75);
+//$enable-gradients: true;
+
+$enable-caret:   false;
+
+$pagination-bg:    $primary;
+$pagination-color: darken($primary, 20%);
+
+$pagination-border-color: darken($body-bg, 7%);
+$pagination-active-bg: $secondary;
+
+$pagination-active-border-color:    darken($body-bg, 7%);
+$pagination-disabled-bg:            darken($body-bg, 3%);
+$pagination-disabled-border-color:  darken($body-bg, 7%);
+$pagination-hover-bg:               $primary;
+$pagination-hover-color: darken($primary, 20%);
+
+
+$list-group-bg:                     $body-bg;
+$list-group-active-bg:              $secondary;
+
+
