@@ -9,10 +9,10 @@
     "dev:eleventy": "eleventy --serve --quiet",
     "dev:webpack": "webpack --watch",
     "build": "run-s prod:*",
-    "prod:del": "rimraf ../build",
-    "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output ../build/css",
+    "prod:del": "rimraf ../buildMed",
+    "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output ../buildMed/css",
     "prod:webpack": "webpack --env.production --silent -p --optimize-minimize",
-    "prod:serve": "eleventy --output=../build"
+    "prod:serve": "eleventy --output=../buildMed"
   },
   "author": "Yury",
   "license": "ISC",
