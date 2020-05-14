@@ -5,7 +5,7 @@
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="{{ '/' | url }}"><img class="logo mr-2" src="/images/save-icu_p.png"/><i class="logo mr-2"></i>{{ metadata.title }}</a> {% if navtitle %} <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
+      <a class="text-light" href="{{ '/' | url }}"><i class="logo mr-2"></i>{{ metadata.title }}</a> {% if navtitle %} <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
     </div>
 
     <div class="collapse navbar-collapse" id="myTogglerNav">
@@ -14,7 +14,9 @@
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
-        <a class="nav-item nav-link {% if navtitle==null %}font-weight-bold  text-light{% endif %}" href="/"><i class="fas fa-home"></i></a>
+        <a class="nav-item nav-link {% if navtitle==null %}font-weight-bold  text-light{% endif %}" href="/">
+          <img class="logo mr-2" src="/images/save-icu_p.png"/>
+        </a>
         {%- for nav in collections.nav | reverse -%}
           {% if nav.url == page.url %}
           <a class="nav-item nav-link disabled font-weight-bold text-light" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>

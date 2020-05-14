@@ -1,5 +1,5 @@
 ---
-layout: layouts/nohero.njk
+layout: layouts/page.njk
 title: About
 navtitle: About
 ---

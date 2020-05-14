@@ -1,2 +1,0 @@
-Trial Objectives:
-SAVE-ICU (SedAting With Volatile Anesthetics Critically Ill COVID-19 Patients in ICU: Effects On Ventilatory Parameters And Survival) is a multicentre open-label, pragmatic, randomized controlled trial and a parallel prospective (non-randomized) cohort study that aims to determine whether sedation using inhaled volatile anesthetics in ventilated COVID-19 patients results in better patient (mortality and quality of life) and health system (ventilator- and ICU-free days) outcomes.
