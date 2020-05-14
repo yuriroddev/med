@@ -1,23 +1,25 @@
 ---
 layout: layouts/page-home.njk
-hero: https://lil-cdn.com/585273/computing-apps-threequarter-211095871.jpg
+title: "Save-Icu"
+hero: /images/posts/covid.jpg
 ---
-
 {% set postslist = collections.posts | head(11) %}
 {% set courselist = collections.courses | head(7) %}
-
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <p class="page-section-text lead text-dark display-1">
+          SAVE-ICU (SedAting With Volatile Anesthetics Critically Ill COVID-19 Patients in ICU: Effects On Ventilatory Parameters And Survival) is a multicentre open-label, pragmatic, randomized
+controlled trial and a parallel prospective (non-randomized) cohort study that aims to determine whether sedation using inhaled volatile anesthetics in ventilated COVID-19 patients results in
+better patient (mortality and quality of life) and health system (ventilator- and ICU-free days) outcomes.
+        </p>
+      </div>
+    </div>
+  </div>
 <div class="row">
-  <div class="main-content col-md-9">
-    <h4 class="family-sans text-secondary mt-2 mb-4">Latest Posts</h4>
+  <div class="main-content col-md-12">
     {%- for item in postslist %}
     {% include "items.njk" %}
-    {% endfor -%}
-  </div>
-  <div class="main-sidebar col-md-3">
-    <h4 class="text-secondary mt-2 mb-4">Latest Courses</h4>
-    {% set itemList = courselist %}
-    {% for item in itemList %}
-    {% include "sidebar.njk" %}
     {% endfor -%}
   </div>
 </div>

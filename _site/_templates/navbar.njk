@@ -5,7 +5,7 @@
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="{{ '/' | url }}"><i class="fas fa-cube mr-2"></i>{{ metadata.title }}</a> {% if navtitle %} <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
+      <a class="text-light" href="{{ '/' | url }}"><img class="logo mr-2" src="/images/save-icu_p.png"/><i class="logo mr-2"></i>{{ metadata.title }}</a> {% if navtitle %} <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
     </div>
 
     <div class="collapse navbar-collapse" id="myTogglerNav">
@@ -14,7 +14,7 @@
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
-        {% if navtitle != 'Home' %}<a class="nav-item nav-link {% if navtitle==null %}font-weight-bold  text-light{% endif %}" href="/"><i class="fas fa-home"></i></a>{% endif %}
+        <a class="nav-item nav-link {% if navtitle==null %}font-weight-bold  text-light{% endif %}" href="/"><i class="fas fa-home"></i></a>
         {%- for nav in collections.nav | reverse -%}
           {% if nav.url == page.url %}
           <a class="nav-item nav-link disabled font-weight-bold text-light" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
@@ -32,36 +32,6 @@
               {% if metadata.author.social.linkedin %}
                 <a class="dropdown-item text-capitalize" target="_blank" href="{{metadata.author.social.linkedin}}">
                   <i class="fab fa-linkedin text-secondary mr-2"></i>LinkedIn
-                </a>
-              {% endif %}
-              {% if metadata.author.social.github %}
-                <a class="dropdown-item text-capitalize" target="_blank" href="{{metadata.author.social.github}}">
-                  <i class="fab fa-github text-secondary mr-2"></i>Github
-                </a>
-              {% endif %}
-              {% if metadata.author.social.twitter %}
-                <a class="dropdown-item text-capitalize" target="_blank" href="{{metadata.author.social.twitter}}">
-                  <i class="fab fa-twitter text-secondary mr-2"></i>Twitter
-                </a>
-              {% endif %}
-              {% if metadata.author.social.youtube %}
-                <a class="dropdown-item text-capitalize" target="_blank" href="{{metadata.author.social.youtube}}">
-                  <i class="fab fa-youtube text-secondary mr-2"></i>YouTube
-                </a>
-              {% endif %}
-              {% if metadata.author.social.dribbble %}
-                <a class="dropdown-item text-capitalize" target="_blank" href="{{metadata.author.social.dribbble}}">
-                  <i class="fab fa-dribbble text-secondary mr-2"></i>Dribbble
-                </a>
-              {% endif %}
-              {% if metadata.author.social.flickr %}
-                <a class="dropdown-item text-capitalize" target="_blank" href="{{metadata.author.social.flickr}}">
-                  <i class="fab fa-flickr text-secondary mr-2"></i>Flickr
-                </a>
-              {% endif %}
-              {% if metadata.author.social.facebook %}
-                <a class="dropdown-item text-capitalize" target="_blank" href="{{metadata.author.social.facebook}}">
-                  <i class="fab fa-facebook text-secondary mr-2"></i>Facebook
                 </a>
               {% endif %}
           </div>

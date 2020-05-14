@@ -12,7 +12,8 @@
     "prod:del": "rimraf ../buildMed",
     "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output ../buildMed/css",
     "prod:webpack": "webpack --env.production --silent -p --optimize-minimize",
-    "prod:serve": "eleventy --output=../buildMed"
+    "prod:serve": "eleventy --output=../buildMed",
+    "prod:copy-gitignore": "cpy ../.gitignore ../buildMed"
   },
   "author": "Yury",
   "license": "ISC",

@@ -8,12 +8,12 @@ $(document).ready(function () {
         var hash = $(".site-nav")
             .find("a.active")
             .attr("href");
-
-        if (hash == "#main-content") {
-            $(".site-nav").addClass("inbody");
-        } else {
-            $(".site-nav").removeClass("inbody");
-        }
+        $(".site-nav").addClass("inbody");
+        //if (hash == "#main-content") {
+        //    $(".site-nav").addClass("inbody");
+        //} else {
+        //    $(".site-nav").removeClass("inbody");
+        //}
     });
 
     $(window).trigger("scroll");

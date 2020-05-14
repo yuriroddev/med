@@ -1,0 +1,25 @@
+﻿---
+layout: layouts/post.njk
+title: "Save-Icu Synopsis"
+hero: /images/posts/vent.jpg
+---
+
+SAVE-ICU Trial is a pragmatic, superiority, multicenter, open-label, pragmatic, randomized controlled trial and a parallel prospective (non-randomized) cohort study. Participating centers at present in Canada and USA. The aim is to randomize suspected or confirmed adult COVID-19 patients who require mechanical ventilation to sedation using inhaled volatile anesthetics or standard IV sedatives.
+Given evolving nature of the pandemic, we will study a hierarchy of key outcomes depending on number of patients recruited: In hierarchical order (1) Ventilator-free-days at day 30; (2) ICU-free-days at day 30; (3) Quality of life at 3-months using EuroQol-5 Dimensional (EQ-5D) survey; (4) In-hospital mortality. Secondary outcomes in include health economics analysis and a planned sub-study of cognitive outcomes.
+
+## WHY DO WE NEED THIS TRIAL?
+Severe lung failure called acute respiratory distress syndrome (ARDS) affects 17-40% of COVID-19 patients. There is no cure for COVID-19 or ARDS and patients are supported using life-saving mechanical ventilation in intensive care units (ICU). Over 85% of ventilated patients need intravenous (IV) sedative drugs to assist tolerance and comfort of this invasive procedure. The surge in ventilated COVID-19 patients has led to **three** problems.
+
+*First*, many patients need prolonged ventilation (median 10 days), which puts pressure on the limited supply of ventilator and IV sedatives.
+
+*Second*, governments (i.e., Health Canada, FDA) report a global shortage of IV sedatives such as benzodiazepines, propofol and opioids. This is due to disruption in global supply chains and high number, long duration of sedation and higher sedative needs of ventilated COVID-19 patients. Many COVID-19 patients are being managed by 2nd, 3rd or 4th line sedative agents that are associated with delirium (confusion), slow wake-up and prolonged ventilation. Shortages of IV sedatives has prompted their triage, impacting care of non-COVID patients in the operating rooms and by palliative care teams. Further, limited supply of IV sedatives will force physicians, especially in low- and middle-income countries, to choose which patients should receive life-saving ventilation or palliation.
+
+*Third*, with no effective treatment, mortality of ventilated COVID-19 patients is 40-80%.
+
+## WHY USE SEDATION WITH INHALED ANESTHETICS?
+Inhaled volatile anesthetics (isoflurane and sevoflurane) are in abundant supply and provide an alternative sedation strategy for any ventilated patient using an anesthesia machine or miniature vaporizers compatible with ICU ventilators (e.g., [Anesthesia Conserving Device](https://www.sedanamedical.com/?page_id=7189)®, [MADM](https://thornhillmedical.com/madm/)®).This mode of sedation immediately eases pressure on IV sedative stocks and offers therapeutic benefits to COVID-19 ARDS patients.
+
+Volatiles agents (i) reduce lung inflammation in ARDS, (ii) improve patient oxygen levels, and (iii) shorten duration of mechanical ventilation compared to IV sedation. In a [pig model of ARDS](https://www.ncbi.nlm.nih.gov/pubmed/23545542), volatile based sedation lowered pro-inflammatory cytokines (e.g. Interleukin-6, 1β) and improved oxygenation compared to propofol. Similarly, a [human ARDS trial](https://www.ncbi.nlm.nih.gov/pubmed/27611637) (n=50) showed that volatile agents improved patient oxygenation by 20% and lowered systemic inflammatory markers compared to IV sedatives. These benefits translated into shorter duration of ventilation (13 vs. 5.5 ventilator-free-days). While this trial lacked power to detect a survival benefit, a [retrospective study](https://www.ncbi.nlm.nih.gov/pubmed/25793760) (n=200) showed that volatile based sedation was associated with a lower adjusted in-hospital mortality (OR 0.35, 95% CI 0.18-0.68; p=0.002). In contrast to IV sedatives, volatile agents are cleared from the body via the lungs and are not affected by impairments in liver or kidney function commonly seen in ARDS patients. This translates into [faster liberation](https://www.ncbi.nlm.nih.gov/pubmed/25756412) from the ventilator in ICU patients.
+
+## WHY IS IT IMPORTANT TO DO THIS TRIAL?
+If inhaled sedation shows patient and/or health system benefits, this can be quickly adopted as a primary strategy for ventilating COVID-19 patients worldwide given the abundance of these agents. The study findings are also relevant to non-COVID ARDS ventilated patients who form a large number of ICU patients. By incorporating healthy economic analysis into our trial, we will be able to evaluate the health economic impact of this intervention during current pandemic and future crises where ICU resources are stretched at a national level. This analysis will be  particularly useful for developing costing thresholds in low-middle income countries where delivering volatile sedation may be significantly less expensive and may have higher utility using existing anesthesia machines.
