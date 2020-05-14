@@ -8,7 +8,6 @@ $(document).ready(function () {
         var hash = $(".site-nav")
             .find("a.active")
             .attr("href");
-        $(".site-nav").addClass("inbody");
         //if (hash == "#main-content") {
         //    $(".site-nav").addClass("inbody");
         //} else {
