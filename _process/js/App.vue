@@ -2,7 +2,7 @@
   <div class="position-relative d-flex ml-2" style="z-index: 100">
     <div class="container py-2">
       <div class="row justify-content-center">
-        <div class="input-group">
+        <div class="input-group input-group-nowrap">
           <input
             type="text"
             id="searchinput"

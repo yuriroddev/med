@@ -19,8 +19,8 @@
       </div>
       {% else %}
       <div class="page-item disabled">
-        <a class="page-link text-info" href="{{pagination.nextPageLink | url}}"><i class="fas fa-arrow-right"></i></a>
+        <a class="page-link disabled" href="{{pagination.nextPageLink | url}}"><i class="fas fa-arrow-right"></i></a>
       </div>
-      {% endif %}
+    {% endif %}
   </div>
 </nav>

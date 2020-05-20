@@ -1,11 +1,13 @@
-<nav class="site-nav family-sans navbar navbar-expand-md navbar-primary fixed-top py-0 inbody">
+<nav class="site-nav family-sans navbar navbar-expand-md navbar-dark bg-dark fixed-top py-1 inbody">
   <div class="container-fluid">
     <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="{{ '/' | url }}"><img class="logo mr-2" src="/images/save-icu_p.png"/><i class="logo mr-2"></i>{{ metadata.title }}</a> {% if navtitle %} <span class="d-none d-lg-inline text-light">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
+    <div class="navbar-brand text-uppercase d-none d-md-block">
+      <a class="" href="{{ '/' | url }}">
+        <img class="logo mr-2" src="/images/save-icu_p.png"/><i class="logo mr-2"></i>{{ metadata.title }}
+      </a> {% if navtitle %} <span class="d-none d-lg-inline ">|</span> <span class="small  text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
     </div>
 
     <div class="collapse navbar-collapse" id="myTogglerNav">
@@ -13,27 +15,25 @@
         {# These next two links are hidden are allow scrollspy to detect the current page #}
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
-        
-        <a class="nav-item nav-link {% if navtitle==null %}font-weight-bold  text-light{% endif %}" href="/"><i class="fas fa-home text-light"></i></a>
+
+        <a class="nav-item nav-link {% if navtitle==null %}font-weight-bold  {% endif %}" href="/">
+          <i class="fas fa-home "></i>
+        </a>
         {%- for nav in collections.nav | reverse -%}
-          {% if nav.url == page.url %}
-          <a class="nav-item nav-link disabled font-weight-bold text-light" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
-          {% else %}
-          <a class="nav-item nav-link text-light" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
-          {% endif %}
+        {% if nav.url == page.url %}
+        <a class="nav-item nav-link disabled font-weight-bold " href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+        {% else %}
+        <a class="nav-item nav-link " href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+        {% endif %}
         {%- endfor -%}
+        <a class="nav-item nav-link text-capitalize" href="/resources">RESOURCES</a>
         <div class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user text-light"></i>
+          <a class="nav-link dropdown-toggle " href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user "></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div>
-              {% if metadata.author.social.linkedin %}
-                <a class="dropdown-item text-capitalize" target="_blank" href="{{metadata.author.social.linkedin}}">
-                  <i class="fab fa-linkedin text-secondary mr-2"></i>LinkedIn
-                </a>
-              {% endif %}
+            <a class="dropdown-item text-capitalize" href="/about">ABOUT</a>
+            <a class="dropdown-item text-capitalize" href="/contact-us">CONTACT US</a>
           </div>
         </div>
       </div>

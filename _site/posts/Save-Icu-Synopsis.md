@@ -1,6 +1,6 @@
 ﻿---
 layout: layouts/post.njk
-title: "Save-Icu Synopsis"
+title: "SAVE-ICU Synopsis"
 hero: /images/posts/vent.jpg
 ---
 

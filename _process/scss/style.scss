@@ -33,7 +33,6 @@
 }
 
 .page-section-text{
-  text-shadow: 1px 1px 10px #000; 
   @include font-size(1.7rem);
 }
 
@@ -54,3 +53,7 @@ a.text-primary:hover{
 // a.text-secondary:hover{
 //   color: $secondary
 // }
+
+.input-group-nowrap {
+    flex-wrap: nowrap;
+}
